@@ -793,7 +793,6 @@ function install_system_module(&$install_state) {
   // Enable the user module so that sessions can be recorded during the
   // upcoming bootstrap step.
   module_enable(array('user'), FALSE);
-  module_enable(array('smtp'), FALSE);
 
   // Save the list of other modules to install for the upcoming tasks.
   // variable_set() can be used now that system.module is installed.

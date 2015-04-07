@@ -29,8 +29,8 @@
 
 #header {
   /* background: url(https://lh4.googleusercontent.com/-zthhkn89Qds/Uumm6Bn58DI/AAAAAAAAQCA/F_GSD81WPAw/w1001-h563-no/background_1.jpg) 55%; */
-  background: url(  https://trello-attachments.s3.amazonaws.com/54da3a3481642a8c9dff4c86/960x720/4cb507ab9cb90002d8cc7a1da2ee67c1/cover_azoresbox_blue.jpg) 55%;
-  /* background: url(../images-source/pool_blue_2.jpg) 55%;*/
+  /*background: url(  https://trello-attachments.s3.amazonaws.com/54da3a3481642a8c9dff4c86/960x720/4cb507ab9cb90002d8cc7a1da2ee67c1/cover_azoresbox_blue.jpg) 55%; */
+  background: url(../images-source/cover_azoresbox_blue.jpg) 55%;
   background-size: cover;
   min-height: 400px;
   background-attachment: fixed;
@@ -56,6 +56,11 @@ fieldset.collapse-text-fieldset {
 .not-front #header {
   height: 200px;
   min-height: 200px;
+}
+
+.not-front #block-system-main-menu,
+.not-front #logo {
+  visibility: hidden;
 }
 
 #content_top{
